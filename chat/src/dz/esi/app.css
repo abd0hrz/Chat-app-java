@@ -1,0 +1,131 @@
+.root{
+    -fx-alignment: center;
+}
+.scroll-pane{
+    -fx-fit-to-width: true;
+    -fx-background-color: #f9f9f9;
+}
+.init{
+    -fx-alignment: center;
+    -fx-vgap: 10px;
+    -fx-hgap: 10px;
+}
+
+.chat{
+    -fx-padding: 10px 0;
+    -fx-min-width: 180px;
+    -fx-alignment: top-center;
+    -fx-background-color: linear-gradient( rgb(143, 202, 214) 0%, rgb(136, 183, 195) 33%, rgb(116, 154, 161) 72%, rgb(101, 131, 137) 90%);
+}
+
+
+.hb{
+    -fx-alignment: center-right;
+}
+.btn-start{
+    -fx-padding: 7px 20px ;
+    -fx-background-color: rgba(65, 128, 74, 0.87);
+    -fx-text-fill: white;
+    -fx-font-weight:bold;
+}
+.vb-msgs{
+
+
+    -fx-padding: 4px;
+    -fx-min-height: 300px;
+}
+
+
+.msg-area .content,.msg-area .content:focused,.msg-area .content *,.msg-area .content *:focused{
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-border-width: 0;
+    -fx-border-style: none;
+    -fx-background-color: white;
+
+
+ }
+
+.msg-area{
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-border-color: #b1b1b1;
+    -fx-padding:5px;
+    -fx-min-height: 85px;
+    -fx-background-color: white;
+}
+.send{
+    -fx-graphic: url("send.png");
+    -fx-padding: 5px 8px;
+    -fx-min-width: 90px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-font-weight:bold;
+    -fx-background-color: #f9f9f9;
+}
+.hb-area{
+    -fx-alignment: center;
+    -fx-padding: 5px;
+    -fx-background-color: #e6e6e6;
+}
+
+
+
+.flow{
+    -fx-min-width: 100px;
+    -fx-max-width: 350px;
+    -fx-padding: 10px;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+}
+.flow *{
+    -fx-fill: white;
+
+}
+.hb-sended{
+    -fx-alignment: center-right;
+    -fx-padding: 5px;
+}
+.hb-received{
+    -fx-alignment: center-left;
+    -fx-padding: 5px;
+}
+.hb-sended .flow{
+    -fx-background-color: #6992ee;
+}
+.hb-received .flow{
+    -fx-background-color: #34ce79;
+}
+
+.conatct{
+    -fx-padding:12px 7px;
+    -fx-min-width: 180px;
+    -fx-background-color: #d9d2e0;
+    -fx-background-radius: 15px;
+    -fx-alignment: center;
+
+}
+
+.btn-remove{
+    -fx-background-color: transparent;
+    -fx-background-image: url("remove.png");
+    -fx-background-size: 18px 18px;
+    -fx-background-repeat: no-repeat;
+    -fx-pref-width: 28px;
+    -fx-pref-height: 24px;
+    -fx-background-position: center;
+
+}
+.btn-remove:hover{
+     -fx-background-color: #68f587;
+ }
+.lb-address{
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+}
+.btn-add{
+    -fx-graphic: url("add.png");
+}
+.selected{
+    -fx-background-color: #ffd110;
+}
