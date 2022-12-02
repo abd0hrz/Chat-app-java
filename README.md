@@ -3,4 +3,4 @@
 
 ### Screenshots
 
-![alt text](https://github.com/abd0hrz/chat-app-javablob/main/Chat_app.png?raw=true)
+![alt text](https://github.com/abd0hrz/chat-app-java/blob/main/Chat_app.png?raw=true)
