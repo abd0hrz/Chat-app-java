@@ -3,4 +3,4 @@
 
 ### Screenshots
 
-![alt text](https://github.com/abd0hrz/Ticketing_App_Microservices_Node_JS_React/blob/main/Chat%20app%20java.png?raw=true)
+![alt text](https://github.com/abd0hrz/chat-app-javablob/main/Chat_app.png?raw=true)
